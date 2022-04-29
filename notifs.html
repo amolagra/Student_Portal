@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(bckgrnd_on_notifs.jpg);
+            font-family: 'Radio Canada', sans-serif;
+        }
+
+        h1 {
+            color: azure;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            color: aliceblue;
+            font-size: 25px;
+        }
+
+        .notifs {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .container li:hover {
+            color: blue;
+        }
+
+        .btn {
+            color: brown;
+            background-color: rgb(194, 208, 113);
+            padding: 4px 14px;
+            margin: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            position: absolute;
+            left: 600px;
+            font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .btn:hover {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Notifications</h1>
+    <ul class="container">
+        <li class="notifs">Network Update on LinkedIn</li>
+        <li class="notifs">Friend Requests on Facebook</li>
+        <li class="notifs">GitHub pull requests</li>
+        <li class="notifs">PM Narendra Modi Recents Tweets</li>
+        <li class="notifs">News of Uttar Pradesh available on IndiaTV</li>
+    </ul>
+    <button class="btn" onclick="history.back()">
+        Back
+    </button>
+</body>
+
+</html>
