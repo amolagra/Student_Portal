@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .month {
+            /* border: 2px solid black; */
+            background: #1abc9c;
+            padding: 50px;
+            margin:5px;
+            text-align: center;
+            color: white;
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+        }
+        h1{font-size: 30px;}
+        h2{font-size: 40px;}
+        h3{font-size: 30px;}
+
+        .item1{
+            color: rgb(138, 69, 69);
+        }
+
+        .days {
+            /* border: 2px solid black; */
+            font-size: 50px;
+            margin: 0px 5px;
+            display: grid;
+            background-color: #ddd;
+            grid-template-columns: repeat(7, 1fr);
+        }
+        .btn {
+        color: brown;
+        background-color: rgb(194, 208, 113);
+        padding: 4px 14px;
+        margin: 4px 14px;
+        border-radius: 10px;
+        font-size: 20px;
+        position: absolute;
+        left: 600px;
+        font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .btn:hover {
+        background-color: aqua;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="month">
+        <h1>April <br> </h1>
+        <h2>May <br> 2021</h2>
+        <h3>June <br> </h3>
+    </div>
+    <div class="days">
+        <div class="item">Mon</div>
+        <div class="item">Tue</div>
+        <div class="item">Wed</div>
+        <div class="item">Thur</div>
+        <div class="item">Fri</div>
+        <div class="item">Sat</div>
+        <div class="item">Sun</div>
+        <hr>
+       <!-- days start -->
+        <div class="item1">1</div>
+        <div class="item1">2</div>
+        <div class="item1">3</div>
+        <div class="item1">4</div>
+        <div class="item1">5</div>
+        <div class="item1">6</div>
+        <div class="item1">7</div>
+        <div class="item1">8</div>
+        <div class="item1">9</div>
+        <div class="item1">10</div>
+        <div class="item1">11</div>
+        <div class="item1">12</div>
+        <div class="item1">13</div>
+        <div class="item1">14</div>
+        <div class="item1">15</div>
+        <div class="item1">16</div>
+        <div class="item1">17</div>
+        <div class="item1">18</div>
+        <div class="item1">19</div>
+        <div class="item1">20</div>
+        <div class="item1">21</div>
+        <div class="item1">22</div>
+        <div class="item1">23</div>
+        <div class="item1">24</div>
+        <div class="item1">25</div>
+        <div class="item1">26</div>
+        <div class="item1">27</div>
+        <div class="item1">28</div>
+        <div class="item1">29</div>
+        <div class="item1">30</div>
+        <div class="item1">31</div>
+    </div>
+    <button class="btn" onclick="history.back()">
+        Back
+    </button>
+</body>
+
+</html>
