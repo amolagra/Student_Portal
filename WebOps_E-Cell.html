@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('background.webp');
+            color: white;
+            display: inline-block;
+            font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        img{
+            border-radius: 20px;
+        }
+
+        .mid {
+            position: absolute;
+            top: 5px;
+            left: 250px;
+        }
+
+        .side {
+            position: absolute;
+            top: 250px;
+        }
+
+        .sidebar li {
+            font-size: 30px;
+            padding: 5px;
+        }
+
+        .sidebar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .sidebar li a:hover {
+            text-decoration: underline;
+            color: rgb(155, 184, 87);
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: rgb(155, 184, 87);
+        }
+
+        .left {
+            text-align: center;
+            font-size: 25px;
+            color: blanchedalmond;
+            margin: 10px 60px;
+        }
+
+        .left img {
+            width: 150px;
+            height: 150px;
+        }
+
+        h4 {
+            font-size: 50px;
+            position: absolute;
+            top: 60px;
+            left: 600px;
+            color: white;
+            text-decoration: underline;
+        }
+
+        .work {
+            position: absolute;
+            left: 450px;
+        }
+
+        .work li {
+            font-size: 40px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="left">
+
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="https://www.facebook.com/amol.agarwal.98622/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/amol-agrawal-9366aa237/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/hereisamol_22/?hl=en" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/amolpriceless" target="_blank">Github</a></li>
+        
+        </ul>
+    </div>
+    <div class="left">
+        <img src="me.jpg" alt="N/A"><br>
+        Amol Agrawal <br>
+        NA21B006 <br>
+        B.Tech IIT-M
+    </div>
+
+    <div class="side">
+        <ul class="sidebar">
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Emails</a></li>
+            <li><a href="#">Budget Tracker</a></li>
+            <li><a href="#">Certificates</a></li>
+        </ul>
+    </div>
+
+    <div class="center">
+        <h4>To-Do List</h4>
+        <ol class="work">
+            <li>Attend Shaastra Workshops</li>
+            <li>Complete Life Skills Assignment</li>
+            <li>Attend the fundaes sessions for PoRs</li>
+            <li>Study for Maths & Physics Quiz</li>
+            <li>Learn Data Structs & Algos</li>
+        </ol>
+    </div>
+
+</body>
+
+</html>
