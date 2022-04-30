@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(bck.jpg);
+            font-family: 'Radio Canada', sans-serif;
+        }
+
+        h1 {
+            color: azure;
+            font-size: 80px;
+            display: flex;
+            justify-content: center;
+        }
+        .doc{
+            display: grid;
+            grid-template-rows: repeat(1, 1fr);
+            grid-gap: 5px;
+        }
+        .doc a{
+            font-size: 40px;
+            color: aliceblue;
+        }
+        .doc a:hover{
+            color: red;
+        }
+        
+        .btn {
+            color: brown;
+            background-color: rgb(194, 208, 113);
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            position: absolute;
+            left: 600px;
+            top: 500px;
+            font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .btn:hover {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Certificates</h1>
+    <div class="doc">
+        <a href ="Bonafide Certificate.pdf" attributes-list download > Bonafide </a>
+        <a href ="pcert.pdf" attributes-list download="Participation Certificate" > Participation Certificate </a>
+    </div>
+
+    <button class="btn" onclick="history.back()">
+        Back to Home
+    </button>
+    
+</body>
+
+</html>

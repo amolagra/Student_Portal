@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(bckgrnd_on_budget.jpg);
+            font-family: 'Radio Canada', sans-serif;
+        }
+
+        h1 {
+            color: brown;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            color: aliceblue;
+            font-size: 25px;
+            display: grid;
+            grid-template-columns: 8fr 2fr;
+            grid-gap: 5px;
+        }
+        .item{
+            border: 2px solid rgb(115, 27, 84);
+
+        }
+
+        .btn {
+            color: brown;
+            background-color: rgb(194, 208, 113);
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            position: absolute;
+            top: 500px;
+            left: 600px;
+            font-family: 'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .btn:hover {
+            background-color: aqua;
+        }
+
+        .item:hover {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Budget Tracker</h1>
+    <div class="container">
+        <div class="item">Rs. 10,00,000</div>
+        <div class="item">Education</div>
+        <div class="item">Rs. 1,00,000</div>
+        <div class="item">Laptop & Phone</div>
+        <div class="item">Rs. 25,000</div>
+        <div class="item">Clothing</div>
+        <div class="item">Rs. 10,000</div>
+        <div class="item">Books</div>
+        <div class="item">Rs. 10,000</div>
+        <div class="item">Cycle</div>
+    </div>
+    <button class="btn" onclick="history.back()">
+        Back to Home
+    </button>
+</body>
+
+</html>
